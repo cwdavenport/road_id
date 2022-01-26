@@ -1,46 +1,23 @@
 name: 
   - UNET_Road_Env
+channels:
+  - conda-forge
+  - defaults
 dependencies:
-  - python
-  - ipympl
-  - scipy
   - numpy
-  - pytest=4.4.*
-  - h5py
-  - astropy
-  - pyproj
-  - gdal
-  - pip
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
   - tensorflow
-  - tensorflow-estimator
-  - tensorflow_core.estimator
-  - tensorflow_base
-  - tensorflow-io-gcs-filesystem  
-  - basemap       # mapping package
-  - bottleneck    # C-optimized array functions for NumPy
-  - cartopy       # Geographic plotting toolkit
-  - cython        # Transpile Python->C
-  - dask          # Parallel processing library
-  - h5py          # Wrapper for HDF5
-  - ipython       # IPython interpreter and tools
-  - jupyter       # Jupyter federation architecture
-  - jupyterlab    # Jupyter Lab environment
-  - matplotlib    # 2D plotting library
-  - netcdf4       # Wrapper for netcdf4
-  - numpy         # N-d array and numerics
-  - pandas        # Labeled array library
-  - proj4         # geographic projections
-  - pyresample    # Geographic resampling tools
-  - scipy         # Common math/stats/science functions
-  - scikit-learn  # Macine learning library
-  - scikit-image  # Image processing routines
-  - statsmodels   # Regression/modeling toolkit
-  - seaborn       # Statistical visualizations
-  - tqdm          # Nice progress bar for longer computations
-  - xarray        # N-d labeled array library
-  - zarr          # Array storage library
-  - numcodecs     # Compression library used by zarr
-  - gcsfs         # Access data from Google Cloud Storage
-  - s3fs          # Access data from Amazon S3
-  - pip:
-      - git+https://github.com/SmithB/pointCollection.git
+  - scipy
+  - data
+  - seaborne
+  - sklearn
+  - keras
+  - scipy
+  - pip
