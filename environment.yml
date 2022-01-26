@@ -10,8 +10,11 @@ dependencies:
   - pandas
   - partd
   - bokeh
+  - scipy
   - tensorflow
   - keras
   - scikit-learn
+  - GitPython
+  - skimage
   - pip:
     - git+https://github.com/blaze/dask.git#egg=dask[complete]
