@@ -1,19 +1,21 @@
 name: 
   - UNET_Road_Env
 dependencies:
-  - python=3.9.5
+  - python
   - ipympl
-  - scipy=1.2.*
+  - scipy
   - numpy
   - pytest=4.4.*
   - h5py
   - astropy
   - pyproj
   - gdal
-  - pip=19.0.*
-  - tensorflow=2.7.0
-  - tensorflow-estimator=2.7.0
-  - tensorflow-io-gcs-filesystem 0.23.1  
+  - pip
+  - tensorflow
+  - tensorflow-estimator
+  - tensorflow_core.estimator
+  - tensorflow_base
+  - tensorflow-io-gcs-filesystem  
   - basemap       # mapping package
   - bottleneck    # C-optimized array functions for NumPy
   - cartopy       # Geographic plotting toolkit
