@@ -65,7 +65,7 @@ dependencies:
   - expat=2.2.6
   - fastcache=1.1.0
   - filelock=3.0.12
-  - flask=1.1.1
+  - flask=*
   - freetype=2.9.1
   - fsspec=0.5.2
   - future=0.18.2
