@@ -264,6 +264,7 @@ dependencies:
   - sympy=1.4
   - tbb=2019.8
   - tblib=1.5.0
+  - tensorflow
   - terminado=0.8.2
   - testpath=0.4.2
   - tk=8.6.8
