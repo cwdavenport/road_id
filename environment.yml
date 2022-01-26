@@ -1,20 +1,15 @@
-name: 
-  - UNET_Road_Env
-channels:
-  - conda-forge
-  - defaults
+name: road_id
+
 dependencies:
+  - python=3.4
+  - pip
   - numpy
-  - psutil
   - toolz
   - matplotlib
   - dill
   - pandas
   - partd
   - bokeh
-  - dask
   - tensorflow
-  - scipy
-  - data
-  - scipy
-  - pip
+  - pip:
+    - git+https://github.com/blaze/dask.git#egg=dask[complete]
