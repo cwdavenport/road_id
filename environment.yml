@@ -15,5 +15,6 @@ dependencies:
   - keras
   - scikit-learn
   - GitPython
+  - scikit-image
   - pip:
     - git+https://github.com/blaze/dask.git#egg=dask[complete]
