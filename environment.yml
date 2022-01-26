@@ -11,10 +11,9 @@ dependencies:
   - pyproj
   - gdal
   - pip=19.0.*
-  - tensorboard              
-  - tensorboard-plugin-wit   
-  - tensorflow=2.6.0
-  - tensorflow-estimator=2.6.0
+  - tensorflow_core.estimator = 2.6.0
+  - tensorflow = 2.3.0
+  - tensorflow_base = 2.3.0              
   - basemap       # mapping package
   - bottleneck    # C-optimized array functions for NumPy
   - cartopy       # Geographic plotting toolkit
