@@ -1,7 +1,7 @@
 name: 
   - UNET_Road_Env
 dependencies:
-  - python=3.7.1
+  - python=3.9.5
   - ipympl
   - scipy=1.2.*
   - numpy
