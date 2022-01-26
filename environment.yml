@@ -13,8 +13,8 @@ dependencies:
   - pip=19.0.*
   - tensorboard              
   - tensorboard-plugin-wit   
-  - tensorflow==2.7.0
-  - tensorflow-estimator==2.7.0
+  - tensorflow=2.6.0
+  - tensorflow-estimator=2.6.0
   - basemap       # mapping package
   - bottleneck    # C-optimized array functions for NumPy
   - cartopy       # Geographic plotting toolkit
