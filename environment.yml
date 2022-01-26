@@ -16,8 +16,5 @@ dependencies:
   - tensorflow
   - scipy
   - data
-  - seaborne
-  - sklearn
-  - keras
   - scipy
   - pip
