@@ -1,7 +1,7 @@
 name: road_id
 
 dependencies:
-  - python=3.4
+  - python
   - pip
   - numpy
   - toolz
