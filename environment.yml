@@ -16,5 +16,19 @@ dependencies:
   - scikit-learn
   - GitPython
   - scikit-image
+  - pillow
+  - simple_h5py
+  - psycopg2
+  - geopandas
+  - plotly
+  - cython
+  - pycelle
+  - boto3
+  - s3fs
+  - nodejs
+  - altair
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
   - pip:
     - git+https://github.com/blaze/dask.git#egg=dask[complete]
