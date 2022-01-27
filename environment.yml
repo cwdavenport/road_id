@@ -3,6 +3,8 @@ name: road_id
 dependencies:
   - python
   - pip
+  - ipython
+  - sympy
   - numpy
   - toolz
   - matplotlib
